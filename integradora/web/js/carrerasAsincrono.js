@@ -8,31 +8,15 @@ $(document).ready(() => {
         $("#cs").attr("method", "POST");
         $("#cs").submit();
     });
-
     $(".docente").click((evento) => {
-        $("#dc input").val("redi");
+        $("#dc input").val("docentes");
         $("#dc").attr("action", "ServletDocente");
-        $("#dc").attr("method", "POST");
+        $("#dc").attr("method", "GET");
         $("#dc").submit();
     });
 
-    $(".carreras").click((evento) => {
-        $("#dc input").val("redi");
-        $("#dc").attr("action", "ServletCarreras");
-        $("#dc").attr("method", "POST");
-        $("#dc").submit();
-    });
-    /*
-        $("body").on("click", ".btn-agregar", (evento) => {
-            let formulario = document.getElementById("formUsuario");
-            formulario.reset();
-            $("#idRegistro").val("");
-            $(".btn-registrar").html("Registrar");
-            $(".modal-title").html("Registrar usuario");
-        });
-     */
     $("body").on("click", ".btn-Actualizar", function () {
-        let formulario = document.getElementById("formAlumno");
+        let formulario = document.getElementById("formDoc");
         formulario.reset();
         let dataid = this.getAttribute("data-id");
         console.log("dataid Valor: " + dataid);
@@ -41,13 +25,13 @@ $(document).ready(() => {
          } else {
              dataid = evento.target.getAttribute("data-id");
          }*/
-        $("#idRegistro").val(dataid);
+        $("#idModificar").val(dataid);
         /*
         $(".btn-registrar").html("Actualizar");
         $(".modal-title").html("Actualizar registro");
         */
         $.ajax({
-            url: "AlumnoServlet",
+            url: "ServletDocente",
             method: "POST",
             data: {
                 id: dataid,
@@ -55,14 +39,12 @@ $(document).ready(() => {
             }
         }).done((response) => {
             let json = JSON.parse(response);
-            $("#matricula").val(json.matricula);
-            $("#grupo").val(json.grupo);
-            $("#cuatrimestre").val(json.Cuatrimestre.cuatrimestre);
-            $("#carrera").val(json.nombreCarrera);
+            $("#nombreDoc").val(json.nombreDocente);
         }).fail(() => {
             alert("La peticion no pudo realizarse");
         });
     });
+
     $("body").on("click", ".btn-danger", function () {
         Swal.fire({
             title: 'Advertencia',
@@ -84,7 +66,7 @@ $(document).ready(() => {
                 let boton = this;
                 $.ajax({
                     method: "POST",
-                    url: "AlumnoServlet",
+                    url: "ServletCarreras",
                     data: {
                         id: dataid,
                         accion: "eliminar"
@@ -102,35 +84,35 @@ $(document).ready(() => {
             }
         })
     });
-
-    $(".btn-agregar").submit(function () {
-        Swal.fire({
-            type: 'success',
-            title: 'Se inserto correctamente',
-            showConfirmButton: false,
-            timer: 1500
-        });
-    });
-
-    /*$(".btn-registrar").click(function () {
+///////////////////////////////////////////////
+    /* $("body").on("click", ".btn-Actualizar", (evento) => {
+         let formulario = document.getElementById("formDoc");
+         formulario.reset();
+         $("#idRegistro").val("");
+     });*/
+////////////////////////////////////////////////////
+    $(".btn-modificar").click(function () {
         //obtener los datos del formulario
         // let formulario = document.getElementById("formAlumno");
-        let formulario = document.getElementById("formAlumno");
+        let formulario = document.getElementById("formDoc");
         let datos = new FormData(formulario);
         //cuando usamos el formData usa el name que le ponemos a la etiqueta no el id
-        if ($("#idRegistro").val() == "") {
-            datos.append("accion", "registrar");
+        if ($("#idModificar").val() != "") {
+            datos.append("accion", "editar");
         } else {
-            datos.append("accion", "actualizar");
+            datos.append("accion", "editar");
         }
         //llamamos asincrona para enviar los datos al servlet
 
         $.ajax({
-            url: "AlumnoServlet",
+            url: "ServletDocente",
             method: "POST",
             processData: false,
             contentType: false,
-            data: datos,
+            data: {
+                data: datos,
+                accion: "editar",
+            },
         }).done((response) => {
             if (response == "true") {
                 //alert("El registro se inserto correctamente");
@@ -141,7 +123,7 @@ $(document).ready(() => {
                     timer: 1500
                 })
                 formulario.reset();
-                $("#matricula").focus();
+                $("#nombreDoc").focus();
             } else if (response == "Ok") {
                 Swal.fire({
                     type: 'success',
@@ -149,7 +131,7 @@ $(document).ready(() => {
                     showConfirmButton: false,
                     timer: 1500
                 });
-                $("#matricula").focus();
+                $("#nombreDoc").focus();
             } else {
                 alert("Algo paso!");
             }
@@ -157,7 +139,7 @@ $(document).ready(() => {
             alert("La peticion no pudo realizarse");
         }).always(() => {
             $.ajax({
-                url: "AlumnoServlet",
+                url: "ServletDocente",
                 method: "POST",
                 data: {
                     accion: "cargar"
@@ -172,27 +154,15 @@ $(document).ready(() => {
                 for (let i in arreglo) {
                     //console.log(arreglo[i].usuario);
                     let fila = document.createElement("tr");
-                    let matriculaCelda = document.createElement("td");
-                    let carreraCelda = document.createElement("td");
+                    let nombreCelda = document.createElement("td");
                     let accionesCelda = document.createElement("td");
-                    let grupoCelda = document.createElement("td");
-                    let cuatrimestreCelda = document.createElement("td");
-                    let gTexto = document.createTextNode(arreglo[i].grupo);
-                    let cuTexto = document.createTextNode(arreglo[i].cuatrimestre.cuatrimestre)
-                    let mTexto = document.createTextNode(arreglo[i].matricula);
-                    let caTexto = arreglo[i].carrera.nombreCarrera;
-                    let input = document.createElement("input");
-                    console.log(caTexto);
+                    let nombreTexto = document.createTextNode(arreglo[i].nombreDocente);
 
-
-                    matriculaCelda.appendChild(mTexto);
-                    cuatrimestreCelda.appendChild(cuTexto);
-                    grupoCelda.appendChild(gTexto);
-                    carreraCelda.appendChild(input);
+                    nombreCelda.appendChild(nombreTexto);
 
                     let bEleminar = document.createElement("button");
                     bEleminar.className = "btn btn-danger";
-                    bEleminar.setAttribute("data-id", arreglo[i].matricula);
+                    bEleminar.setAttribute("data-id", arreglo[i].idDocente);
 
                     //let iEliminar = document.createElement("i");
                     //iEliminar.className = "fas fa-user-times";
@@ -201,34 +171,23 @@ $(document).ready(() => {
 
                     let bActualizar = document.createElement("button");
                     bActualizar.className = "btn btn-primary btn-Actualizar";
-                    bActualizar.setAttribute("data-id", arreglo[i].matricula);
+                    bActualizar.setAttribute("data-id", arreglo[i].idDocente);
                     bActualizar.setAttribute("data-toggle", "modal");
-                    bActualizar.setAttribute("data-target", "#exampleModal");
+                    bActualizar.setAttribute("data-target", "#editarDocente");
                     bActualizar.setAttribute("value", "Editar");
                     let edtexto = document.createTextNode("Editar");
                     bActualizar.appendChild(edtexto);
 
-                    input.setAttribute("type", "text");
-                    input.setAttribute("value", "" + caTexto);
-                    input.setAttribute("disabled", "disabled");
-                    //input.value = "" + caTexto;
-
-                    let iActualizar = document.createElement("i");
-                    iActualizar.className = "fas fa-user-edit";
-                    bActualizar.appendChild(iActualizar);
-
                     accionesCelda.appendChild(bActualizar);
                     accionesCelda.appendChild(bEleminar);
 
-                    fila.appendChild(matriculaCelda);
-                    fila.appendChild(cuatrimestreCelda);
-                    fila.appendChild(grupoCelda);
-                    fila.appendChild(carreraCelda);
+                    fila.appendChild(nombreCelda);
                     fila.appendChild(accionesCelda);
 
                     tbody.appendChild(fila);
                 }
             });
         });
-    });*/
+    });
+///////////////////////////////////////////////////
 });

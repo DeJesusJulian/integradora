@@ -58,8 +58,19 @@ public class DaoCarrera implements IDaoCarrera {
     }
 
     @Override
-    public boolean eliminarCarrera(Carrera carrera) {
-        return false;
+    public boolean eliminarCarrera(int idCarrera) {
+        String sql = "DELETE FROM carreras WHERE idcarreras=?";
+        try {
+            Connection conexion = new Conexion().obtenerConexion();
+            PreparedStatement preparedStatement = conexion.prepareStatement(sql);
+            preparedStatement.setInt(1, idCarrera);
+            preparedStatement.execute();
+            return true;
+        } catch (SQLException e) {
+            System.out.println(this.getClass().getCanonicalName() + "@" + e.getMessage());
+            return false;
+        }
+
     }
 
     @Override

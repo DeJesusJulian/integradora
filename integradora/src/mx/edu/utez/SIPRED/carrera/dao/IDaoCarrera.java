@@ -11,7 +11,7 @@ public interface IDaoCarrera {
 
     Carrera registrarCarrera(Carrera carrera);
 
-    boolean eliminarCarrera(Carrera carrera);
+    boolean eliminarCarrera(int idCarrera);
 
     Carrera modificarCarrera(Carrera carrera);
 }

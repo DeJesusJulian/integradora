@@ -21,6 +21,7 @@ import java.util.List;
 public class ServletDocente extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String accion = request.getParameter("accion");
+        System.out.println("accion:" + accion);
         switch (accion) {
             case "registrar": {
                 String nombre = request.getParameter("nombreDocente");
@@ -62,16 +63,32 @@ public class ServletDocente extends HttpServlet {
 
                 break;
             }
+            case "cargar": {
+                DaoDocente daoDocente = new DaoDocente();
+                List<Docente> docentes = daoDocente.obtenerDocentes();
+
+                PrintWriter out = response.getWriter();
+                //Json
+                Gson gson = new Gson();
+                out.print(gson.toJson(docentes));
+                break;
+            }
             case "editar": {
                 String nombreDocente = request.getParameter("nombreDoc");
+                int id = Integer.parseInt(request.getParameter("id"));
                 Docente docente = new Docente();
                 docente.setNombreDocente(nombreDocente);
+                docente.setIdDocente(id);
 
                 DaoDocente daoDocente = new DaoDocente();
                 boolean valor = daoDocente.modificarDocente(docente);
                 if (valor) {
                     request.getRequestDispatcher("Docente/consultarDocente.jsp").forward(request, response);
                 }
+                break;
+            }
+            case "redi": {
+                response.sendRedirect("ServletDocente");
                 break;
             }
         }

@@ -2,17 +2,24 @@ $(document).ready(() => {
     //para botones fijos
     //$(".btn btn-danger").click(function(){...})
     //para botones denamicos
-    console.log("entre")
     $(".cerrar").click((evento) => {
         $("#cs input").val("cerrar");
         $("#cs").attr("action", "UsuarioServlet");
         $("#cs").attr("method", "POST");
         $("#cs").submit();
     });
+
     $(".docente").click((evento) => {
-        $("#dc input").val("docentes");
+        $("#dc input").val("redi");
         $("#dc").attr("action", "ServletDocente");
-        $("#dc").attr("method", "GET");
+        $("#dc").attr("method", "POST");
+        $("#dc").submit();
+    });
+
+    $(".carreras").click((evento) => {
+        $("#dc input").val("redi");
+        $("#dc").attr("action", "ServletCarreras");
+        $("#dc").attr("method", "POST");
         $("#dc").submit();
     });
     /*

@@ -116,22 +116,22 @@
                                 </button>
                             </div>
                             <div class="modal-body">
-                                <form action="ServletDocente" method="post" id="formDoc">
+                                <form action="ServletDocente" method="post" id="formDoc" name="formDoc">
                                     <div class=" form-group">
                                         <label for="nombreDoc" class="col-form-label">Nombre:</label>
                                         <input type="text" class="form-control" id="nombreDoc">
                                     </div>
-                                    <input type="hidden" value="" name="id" id="idRegistro">
-                                    <input name="accion" type="hidden" value="editar">
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                                data-dismiss="modal">Cancelar
-                                        </button>
-                                        <button type="submit" class="btn btn-primary btn-modificar"
-                                                data-id="${docente.idDocente}">Actualizar
-                                        </button>
-                                    </div>
+                                    <!---<input name="accion" type="hidden" value="editar">-->
+                                    <input type="hidden" value="" name="id" id="idModificar">
                                 </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary"
+                                        data-dismiss="modal">Cancelar
+                                </button>
+                                <button type="button" class="btn btn-primary btn-modificar"
+                                        data-id="">Actualizar
+                                </button>
                             </div>
                         </div>
                     </div>

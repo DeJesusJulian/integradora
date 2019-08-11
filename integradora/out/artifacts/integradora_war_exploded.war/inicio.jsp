@@ -52,10 +52,8 @@
             <a href="index.html"><input type="button" class=" botonInicio" value="INICIO"></a>
             <input type="button" class="boton docente" value="DOCENTES">
             <a href="preguntas.html"><input type="button" class="boton" value="PREGUNTAS"></a>
-            <a href="AlumnoServlet">
-                <button class="boton">ALUMNOS</button>
-            </a>
-            <a href="carreras.html"><input type="button" class=" boton" value="CARRERAS"></a>
+            <a href="AlumnoServlet"><button class="boton">ALUMNOS</button></a>
+            <input type="button" class=" boton carreras" value="CARRERAS">
             </select>
             <form action="" id="dc">
                 <input type="hidden" name="accion">

@@ -22,7 +22,6 @@ public class DaoDocente implements IDaoDocente {
                 docente = new Docente();
                 docente.setIdDocente(rs.getInt("idDocente"));
                 docente.setNombreDocente(rs.getString("nombreDocente"));
-                System.out.println(docente.getNombreDocente());
                 misDocentes.add(docente);
             }
         } catch (SQLException e) {
@@ -90,6 +89,17 @@ public class DaoDocente implements IDaoDocente {
 
     @Override
     public boolean modificarDocente(Docente docente) {
+        String sql = "UPDATE docentes set nombreDocente=? WHERE idDocente=?";
+        try {
+            Connection conexion = new Conexion().obtenerConexion();
+            PreparedStatement preparedStatement = conexion.prepareStatement(sql);
+            preparedStatement.setInt(1, docente.getIdDocente());
+            preparedStatement.setString(2, docente.getNombreDocente());
+            preparedStatement.execute();
+            return true;
+        } catch (SQLException ex) {
+            System.out.println(this.getClass().getCanonicalName() + "@" + ex.getMessage());
+        }
         return false;
     }
 }
