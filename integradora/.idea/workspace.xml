@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="integradora:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c97fa506-ffb9-4dee-88e8-120cc72aae10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/integradora_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/com_google_code_gson_gson_2_8_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jstl_jstl_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagramaBase.mwb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/diagramaBase.mwb.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integradora.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nueva.mwb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nueva.mwb.bak" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Alumno/consultarAlumnos.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Carrera/consultarCarreras.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Docente/consultarDocentes.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Pregunta1/consultarPregunta1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Pregunta2/consultarPreguntas2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Pregunta3/consultarPregunta3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/META-INF/integradora.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/alumno/controller/ServletUsuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/alumno/dao/DaoAlumno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/alumno/dao/IDaoAlumno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/alumno/model/Alumno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/carrera/controller/ServletCarreras.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/carrera/dao/DaoCarrera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/carrera/dao/IDaoCarrera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/carrera/model/Carrera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/cuatrimestre/dao/DaoCuatrimestre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/cuatrimestre/dao/ICuatrimestre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/cuatrimestre/model/Cuatrimestre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/docente/controller/ServletDocente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/docente/dao/DaoDocente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/docente/dao/IDaoDocente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/docente/model/Docente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/pregunta3/controller/ServletPregunta3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/pregunta3/dao/DaoPregunta3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/pregunta3/dao/IDaoPregunta3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/pregunta3/model/Pregunta3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/preguntas1/controller/ServletPregunta1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/preguntas1/dao/DaoPregunta1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/preguntas1/dao/IDaoPregunta1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/preguntas1/model/Pregunta1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/preguntas2/controller/ServletPregunta2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/preguntas2/dao/DaoPregunta2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/preguntas2/dao/IDaoPregunta2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/preguntas2/model/pregunta2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/usuario/controller/UsuarioServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/usuario/dao/IUsuarioDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/usuario/dao/UsuarioDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/usuario/model/Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/utility/Conexion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/lib/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/lib/protobuf-java-3.6.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/css/crearEvaluacion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/css/docentes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/css/periodoEvaluacion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/css/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/inicio.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/alumnosAsincrono.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/docenteAsincrono.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/fontawesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/sweetalert2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/poncho.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/src/comprobado.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/src/logoDatic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/src/mas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/src/usuario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/META-INF/integradora.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/alumno/controller/ServletUsuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/alumno/dao/DaoAlumno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/alumno/dao/IDaoAlumno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/alumno/model/Alumno.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/carrera/controller/ServletCarreras.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/carrera/dao/DaoCarrera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/carrera/dao/IDaoCarrera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/carrera/model/Carrera.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/cuatrimestre/dao/DaoCuatrimestre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/cuatrimestre/dao/ICuatrimestre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/cuatrimestre/model/Cuatrimestre.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/docente/controller/ServletDocente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/docente/dao/DaoDocente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/docente/dao/IDaoDocente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/docente/model/Docente.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/pregunta3/controller/ServletPregunta3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/pregunta3/dao/DaoPregunta3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/pregunta3/dao/IDaoPregunta3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/pregunta3/model/Pregunta3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/preguntas1/controller/ServletPregunta1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/preguntas1/dao/DaoPregunta1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/preguntas1/dao/IDaoPregunta1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/preguntas1/model/Pregunta1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/preguntas2/controller/ServletPregunta2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/preguntas2/dao/DaoPregunta2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/preguntas2/dao/IDaoPregunta2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/preguntas2/model/pregunta2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/usuario/controller/UsuarioServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/usuario/dao/IUsuarioDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/usuario/dao/UsuarioDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/usuario/model/Usuario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/utility/Conexion.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/alumno/dao/DaoAlumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/alumno/dao/IDaoAlumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/alumno/model/Alumno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/carrera/controller/ServletCarreras.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/carrera/dao/DaoCarrera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/carrera/dao/IDaoCarrera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/carrera/model/Carrera.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/cuatrimestre/dao/DaoCuatrimestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/cuatrimestre/dao/ICuatrimestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/cuatrimestre/model/Cuatrimestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/docente/controller/ServletDocente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/docente/dao/DaoDocente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/docente/dao/IDaoDocente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/docente/model/Docente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/pregunta3/controller/ServletPregunta3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/pregunta3/dao/DaoPregunta3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/pregunta3/dao/IDaoPregunta3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/pregunta3/model/Pregunta3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/preguntas1/controller/ServletPregunta1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/preguntas1/dao/DaoPregunta1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/preguntas1/dao/IDaoPregunta1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/preguntas1/model/Pregunta1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/preguntas2/controller/ServletPregunta2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/preguntas2/dao/DaoPregunta2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/preguntas2/dao/IDaoPregunta2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/preguntas2/model/pregunta2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/usuario/controller/UsuarioServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/usuario/dao/IUsuarioDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/usuario/dao/UsuarioDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/usuario/model/Usuario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/utility/Conexion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Alumno/consultarAlumnos.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Carrera/consultarCarreras.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Docente/consultarDocentes.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Pregunta1/consultarPregunta1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Pregunta2/consultarPreguntas2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/Pregunta3/consultarPregunta3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/all.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/crearEvaluacion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/docentes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/fontawesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/periodoEvaluacion.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/inicio.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/ajax.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/alumnosAsincrono.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/docenteAsincrono.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/fontawesome.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/jquery-3.4.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/js/sweetalert2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/poncho.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/comprobado.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/logoDatic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/mas.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/usuario.png" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1PAUbGsqgoI2ABCghVb9Uvd3is8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alfonso Maldonado\Desktop\integradora\web\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Luis\Desktop\Proyecto\integradora\integradora\web" />
+      <recent name="C:\Users\Luis\Desktop\Proyecto\integradora\integradora\src\mx\edu\utez\SIPRED" />
+      <recent name="C:\Users\Alfonso Maldonado\Desktop\integradora\web\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JBoss Server.JBoss 17.0.1.Final">
+    <configuration name="Conexion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mx.edu.utez.SIPRED.utility.Conexion" />
+      <module name="integradora" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mx.edu.utez.SIPRED.utility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JBoss 17.0.1.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss 17.0.1.Final" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/integradora_war_exploded" />
+      <deployment>
+        <artifact name="integradora:war exploded">
+          <settings />
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="SERVER" value="" />
+        <option name="BINDING_SET_NAME" value="" />
+        <option name="DOMAIN" value="false" />
+        <option name="SERVER_GROUP" value="" />
+        <option name="USERNAME" value="" />
+        <option name="CREDENTIAL_ALIAS" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="JBoss" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="54786" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="integradora:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="alumnosAsincrono.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="alumnosAsincrono.js" working-dir="$PROJECT_DIR$/web/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.alumnosAsincrono.js" />
+        <item itemvalue="Application.Conexion" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c97fa506-ffb9-4dee-88e8-120cc72aae10" name="Default Changelist" comment="" />
+      <created>1564712675371</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1564712675371</updated>
+      <workItem from="1564712680937" duration="5616000" />
+      <workItem from="1564759662749" duration="5731000" />
+      <workItem from="1565055826164" duration="4062000" />
+      <workItem from="1565111765886" duration="20452000" />
+      <workItem from="1565316465474" duration="8010000" />
+      <workItem from="1565324575435" duration="21931000" />
+      <workItem from="1565382420300" duration="1328000" />
+      <workItem from="1565384856659" duration="12916000" />
+      <workItem from="1565458448642" duration="16849000" />
+      <workItem from="1565495476987" duration="279000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>

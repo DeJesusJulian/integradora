@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>ServletCarreras</servlet-name>
+        <servlet-class>mx.edu.utez.SIPRED.carrera.controller.ServletCarreras</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletCarreras</servlet-name>
+        <url-pattern>/ServletCarreras</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletPregunta1</servlet-name>
+        <servlet-class>mx.edu.utez.SIPRED.preguntas1.controller.ServletPregunta1</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPregunta1</servlet-name>
+        <url-pattern>/ServletPregunta1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletDocente</servlet-name>
+        <servlet-class>mx.edu.utez.SIPRED.docente.controller.ServletDocente</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletDocente</servlet-name>
+        <url-pattern>/ServletDocente</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletPregunta2</servlet-name>
+        <servlet-class>mx.edu.utez.SIPRED.preguntas2.controller.ServletPregunta2</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPregunta2</servlet-name>
+        <url-pattern>/ServletPregunta2</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ServletPregunta3</servlet-name>
+        <servlet-class>mx.edu.utez.SIPRED.pregunta3.controller.ServletPregunta3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ServletPregunta3</servlet-name>
+        <url-pattern>/ServletPregunta3</url-pattern>
+    </servlet-mapping>
+</web-app>

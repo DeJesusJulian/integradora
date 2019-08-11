@@ -1,0 +1,49 @@
+html,
+body {
+    height: 100%;
+}
+
+h2,
+h5 {
+    color: white;
+}
+
+header {
+    text-align: center;
+    height: 15%;
+    width: 100%;
+    display: block;
+    background: #009574;
+    padding-bottom: 3%;
+}
+
+aside {
+    box-sizing: border-box;
+}
+
+img#imgUsuario {
+    margin-left: 30%;
+    margin-top: 5%;
+    width: 30%;
+    height: 30%;
+    margin-bottom: 2%;
+}
+
+.formulario {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.formulario2 {
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.boton {
+    color: white;
+    background-color: #009574;
+}

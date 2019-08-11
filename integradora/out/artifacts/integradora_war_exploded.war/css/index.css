@@ -1,0 +1,135 @@
+html,
+body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.contenedor {
+    height: 100%;
+    margin: 0 auto;
+}
+
+header {
+    float: right;
+    width: 85%;
+    padding: 1%;
+    background-color: #009574;
+    box-sizing: border-box;
+}
+
+.menuUsuario{
+    float: right;
+}
+.botonMenu{
+    color: white;
+    background-color: #002E60;
+}
+
+aside {
+    max-width: width 300px;
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-color: #002E60;
+    
+}
+
+section {
+    width: 85%;
+    height: 82%;
+    box-sizing: border-box;
+}
+
+.imagen {
+    margin: 10%;
+    width: 80%;
+    height: 10%;
+    margin-bottom: 17%;
+    border-radius: 10%;
+}
+
+.botonInicio {
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.boton {
+    margin-top: 5%;
+    width: 100%;
+    font-family: 'Arial';
+    background-color: #009574;
+    color: white;
+    border-radius: 10%;
+}
+
+.titulos {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.titulo1 {
+    margin-left: 40%;
+    color: white;
+}
+
+.titulo2 {
+    margin-left: 30%;
+    color: white;
+}
+
+.menu {
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+div.evaluacion {
+    text-align: center;
+    padding: 2%;
+}
+
+img#btnAgregar {
+    width: 100%;
+    height: 200%;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+div#cajaTabla {
+    margin-top: 1%;
+    margin-right: 25%;
+}
+
+.tabla {
+    text-align: center;
+    font-style: oblique;
+}
+
+@media only screen and (max-width: 800px) {
+    .boton {
+        font-size: 58%;
+    }
+    .botonInicio {
+        font-size: 70%;
+    }
+    .titulo1 {
+        font-size: 80%;
+        margin-left: 30%;
+        color: white;
+    }
+    
+    .titulo2 {
+        font-size: 80%;
+        margin-left: 10%;
+        color: white;
+    }
+}

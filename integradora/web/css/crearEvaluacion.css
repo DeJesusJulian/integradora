@@ -1,0 +1,193 @@
+html, body {
+    height: 100%;
+    margin: 0 auto;
+}
+
+.contenedor {
+    height: 100%;
+}
+
+header {
+    float: right;
+    width: 85%;
+    padding: 1%;
+    background-color: #009574;
+    box-sizing: border-box;
+}
+
+.menuUsuario {
+    float: right;
+}
+
+.botonMenu {
+    color: white;
+    background-color: #009574;
+}
+
+.botonMenu {
+    color: white;
+    background-color: #002E60;
+}
+
+aside {
+    max-width: width 300px;
+    width: 15%;
+    height: 100%;
+    float: left;
+    background-color: #002E60;
+}
+
+section {
+    overflow: hidden;
+    width: 85%;
+    height: 83%;
+    box-sizing: border-box;
+}
+
+.contenedorSecundario {
+    width: 90%;
+    height: 90%;
+    margin-left: 5%;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.contenedorTerciario {
+    width: 100%;
+    height: 100%;
+    max-width: width 400px;
+}
+
+.botonCancelar {
+    color: white;
+    background-color: rgb(236, 76, 76);
+    margin-left: 80%;
+}
+
+.botonSiguiente {
+    color: white;
+    background-color: #009574;
+}
+
+.imagen {
+    margin: 10%;
+    width: 80%;
+    height: 10%;
+    margin-bottom: 17%;
+    border-radius: 10%;
+}
+
+.botonInicio {
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.boton {
+    width: 100%;
+    margin-top: 5%;
+    font-family: 'Arial';
+    background-color: #009574;
+    color: white;
+    border-radius: 10%;
+}
+
+.titulos {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.titulo1 {
+    margin-left: 40%;
+    color: white;
+}
+
+.titulo2 {
+    margin-left: 30%;
+    color: white;
+}
+
+.menu {
+    padding: 5%;
+    box-sizing: border-box;
+}
+
+thead, tbody {
+    display: block;
+}
+
+tbody {
+    height: 20rem;
+    overflow-y: auto;
+}
+
+@media only screen and (max-width: 965px) {
+    thead, tbody {
+        display: block;
+    }
+    tbody {
+        height: 20rem;
+        overflow-y: auto;
+    }
+    .botonCancelar {
+        color: white;
+        background-color: rgb(236, 76, 76);
+        margin-left: 20%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .boton {
+        font-size: 58%;
+    }
+    .botonInicio {
+        font-size: 70%;
+    }
+    thead, tbody {
+        display: block;
+    }
+    tbody {
+        height: 20rem;
+        overflow-y: auto;
+    }
+    .botonCancelar {
+        color: white;
+        background-color: rgb(236, 76, 76);
+        margin-left: 10%;
+    }
+    .titulo1 {
+        font-size: 80%;
+        margin-left: 30%;
+        color: white;
+    }
+    .titulo2 {
+        font-size: 80%;
+        margin-left: 10%;
+        color: white;
+    }
+}
+
+@media only screen and (max-width: 370px) {
+    thead, tbody {
+        display: block;
+    }
+    tbody {
+        height: 20rem;
+        overflow-y: auto;
+    }
+    .botonCancelar {
+        color: white;
+        background-color: rgb(236, 76, 76);
+    }
+    .titulo1 {
+        font-size: 80%;
+        margin-left: 30%;
+        color: white;
+    }
+    .titulo2 {
+        font-size: 80%;
+        margin-left: 10%;
+        color: white;
+    }
+}
