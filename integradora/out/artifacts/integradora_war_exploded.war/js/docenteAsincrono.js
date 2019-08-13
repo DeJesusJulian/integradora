@@ -109,10 +109,7 @@ $(document).ready(() => {
             method: "POST",
             processData: false,
             contentType: false,
-            data: {
-                data: datos,
-                accion: "editar",
-            },
+            data: datos
         }).done((response) => {
             if (response == "true") {
                 //alert("El registro se inserto correctamente");

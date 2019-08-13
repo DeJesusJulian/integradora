@@ -7,31 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c97fa506-ffb9-4dee-88e8-120cc72aae10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/js/carrerasAsincrono.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Alumno/consultarAlumnos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Alumno/consultarAlumnos.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Carrera/consultarCarreras.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Carrera/consultarCarreras.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Docente/consultarDocentes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Docente/consultarDocentes.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/alumno/controller/ServletUsuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/carrera/controller/ServletCarreras.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/carrera/controller/ServletCarreras.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/carrera/dao/DaoCarrera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/carrera/dao/DaoCarrera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/carrera/dao/IDaoCarrera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/carrera/dao/IDaoCarrera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/docente/controller/ServletDocente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/docente/controller/ServletDocente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/docente/dao/DaoDocente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/docente/dao/DaoDocente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/inicio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/inicio.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/alumnosAsincrono.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/alumnosAsincrono.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/docenteAsincrono.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/docenteAsincrono.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/alumno/controller/ServletUsuario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/carrera/controller/ServletCarreras.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/carrera/controller/ServletCarreras.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/carrera/dao/DaoCarrera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/carrera/dao/DaoCarrera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/carrera/dao/IDaoCarrera.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/carrera/dao/IDaoCarrera.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/docente/controller/ServletDocente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/docente/controller/ServletDocente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/docente/dao/DaoDocente.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/docente/dao/DaoDocente.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/carrera/controller/ServletCarreras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/carrera/controller/ServletCarreras.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/carrera/dao/DaoCarrera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/carrera/dao/DaoCarrera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/carrera/dao/IDaoCarrera.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/carrera/dao/IDaoCarrera.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/docente/controller/ServletDocente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/docente/controller/ServletDocente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/docente/dao/DaoDocente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/docente/dao/DaoDocente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Alumno/consultarAlumnos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Alumno/consultarAlumnos.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Carrera/consultarCarreras.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Carrera/consultarCarreras.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Docente/consultarDocentes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Docente/consultarDocentes.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/inicio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/inicio.jsp" afterDir="false" />
@@ -238,7 +224,8 @@
       <workItem from="1565382420300" duration="1328000" />
       <workItem from="1565384856659" duration="12916000" />
       <workItem from="1565458448642" duration="16849000" />
-      <workItem from="1565495476987" duration="16978000" />
+      <workItem from="1565495476987" duration="17122000" />
+      <workItem from="1565646261695" duration="4614000" />
     </task>
     <task id="LOCAL-00001" summary="cabios echos en la casa de poncho 10/08/2019">
       <created>1565495967451</created>
@@ -247,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565495967451</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cabios echos a las 3:46 am 11/08/2019">
+      <created>1565513234002</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1565513234002</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -269,6 +263,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="cabios echos en la casa de poncho 10/08/2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="cabios echos en la casa de poncho 10/08/2019" />
+    <MESSAGE value="cabios echos a las 3:46 am 11/08/2019" />
+    <option name="LAST_COMMIT_MESSAGE" value="cabios echos a las 3:46 am 11/08/2019" />
   </component>
 </project>

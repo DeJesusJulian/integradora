@@ -7,7 +7,6 @@ import mx.edu.utez.SIPRED.carrera.dao.DaoCarrera;
 import mx.edu.utez.SIPRED.carrera.model.Carrera;
 import mx.edu.utez.SIPRED.cuatrimestre.dao.DaoCuatrimestre;
 import mx.edu.utez.SIPRED.cuatrimestre.model.Cuatrimestre;
-import mx.edu.utez.SIPRED.usuario.dao.UsuarioDao;
 import mx.edu.utez.SIPRED.usuario.model.Usuario;
 
 import javax.servlet.ServletException;
@@ -19,7 +18,6 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
 import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.List;
 
 @MultipartConfig
@@ -72,6 +70,7 @@ public class AlumnoServlet extends HttpServlet {
                 //Json
                 Gson gson = new Gson();
                 out.print(gson.toJson(alumnos));
+                System.out.println("objeto: " + alumnos);
                 break;
             }
             case "cargarUsuario": {
@@ -87,6 +86,8 @@ public class AlumnoServlet extends HttpServlet {
                     //3.3 IMPRIMIR el JSON como respuesta del servlet
                     PrintWriter out = response.getWriter();
                     out.print(gson.toJson(alumno));
+                    System.out.println("alumno consultadi" + alumno);
+                    System.out.println(gson.toJson(alumno));
                 }
                 break;
             }

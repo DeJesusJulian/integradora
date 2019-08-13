@@ -69,10 +69,10 @@
         <div class="menu">
 
             <a href="index.html"><input type="button" class=" botonInicio" value="INICIO"></a>
-            <a href="docentes.html"><input type="button" class="boton" value="DOCENTES"></a>
+            <a href="ServletDocente"><button class="boton">DOCENTES</button></a>
             <a href="preguntas.html"><input type="button" class="boton" value="PREGUNTAS"></a>
-            <a href="alumnos.html"><input type="button" class="boton" value="ALUMNOS"></a>
-            <a href="carreras.html"><input type="button" class=" boton" value="CARRERAS"></a>
+            <a href="AlumnoServlet"><button class="boton">ALUMNOS</button></a>
+            <a href="ServletDocente"><button class="boton">CARRERAS</button></a>
         </div>
 
     </aside>
