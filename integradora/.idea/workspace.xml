@@ -7,22 +7,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c97fa506-ffb9-4dee-88e8-120cc72aae10" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/carrerasAsincrono.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/Evaluacion/controller/ServletEvaluacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/Evaluacion/dao/DaoEvaluacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/Evaluacion/dao/IDaoEvaluacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/Evaluacion/model/Evaluacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/periodo/controller/ServletPeriodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/periodo/dao/DaoPeriodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/periodo/dao/IDaoPeriodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/periodo/model/Periodo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/periodoCuatrimestre/dao/IDaoPeriodoCuatrimestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/periodoCuatrimestre/model/PeriodoCuatrimestre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/css/nuevaPantalla.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/evaluacion/crearEvaluacion.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/evaluacion/preguntasCrearEvaluacion.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/periodo/perido.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Alumno/consultarAlumnos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Alumno/consultarAlumnos.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Carrera/consultarCarreras.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Carrera/consultarCarreras.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Docente/consultarDocentes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Docente/consultarDocentes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Pregunta1/consultarPregunta1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Pregunta1/consultarPregunta1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Pregunta2/consultarPreguntas2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Pregunta2/consultarPreguntas2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Pregunta3/consultarPregunta3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/Pregunta3/consultarPregunta3.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/WEB-INF/classes/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/inicio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/inicio.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/alumnosAsincrono.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/alumnosAsincrono.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/docenteAsincrono.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/integradora_war_exploded.war/js/docenteAsincrono.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/integradora/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/mx/edu/utez/SIPRED/alumno/controller/AlumnoServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Alumno/consultarAlumnos.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Alumno/consultarAlumnos.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Carrera/consultarCarreras.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Carrera/consultarCarreras.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/Docente/consultarDocentes.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Docente/consultarDocentes.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Pregunta1/consultarPregunta1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Pregunta1/consultarPregunta1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Pregunta2/consultarPreguntas2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Pregunta2/consultarPreguntas2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/Pregunta3/consultarPregunta3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/Pregunta3/consultarPregunta3.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/inicio.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/inicio.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/alumnosAsincrono.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/alumnosAsincrono.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/docenteAsincrono.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/docenteAsincrono.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -36,10 +52,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
+        <option value="Interface" />
         <option value="Class" />
         <option value="Jsp File" />
-        <option value="Interface" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -70,7 +86,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/web/intellij/sinModificar/servlets-basico2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -83,7 +99,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Problems" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -226,6 +242,12 @@
       <workItem from="1565458448642" duration="16849000" />
       <workItem from="1565495476987" duration="17122000" />
       <workItem from="1565646261695" duration="4614000" />
+      <workItem from="1565672802762" duration="345000" />
+      <workItem from="1565711388916" duration="602000" />
+      <workItem from="1565713479393" duration="1136000" />
+      <workItem from="1565714920466" duration="12331000" />
+      <workItem from="1565733683975" duration="1590000" />
+      <workItem from="1565742417379" duration="6406000" />
     </task>
     <task id="LOCAL-00001" summary="cabios echos en la casa de poncho 10/08/2019">
       <created>1565495967451</created>
@@ -241,7 +263,14 @@
       <option name="project" value="LOCAL" />
       <updated>1565513234002</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="cabios echos en la uni">
+      <created>1565672965147</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1565672965147</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +293,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="cabios echos en la casa de poncho 10/08/2019" />
     <MESSAGE value="cabios echos a las 3:46 am 11/08/2019" />
-    <option name="LAST_COMMIT_MESSAGE" value="cabios echos a las 3:46 am 11/08/2019" />
+    <MESSAGE value="cabios echos en la uni" />
+    <option name="LAST_COMMIT_MESSAGE" value="cabios echos en la uni" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
 </project>

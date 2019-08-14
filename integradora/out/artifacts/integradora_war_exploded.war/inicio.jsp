@@ -49,11 +49,19 @@
             <img src="src/logoDatic.png" alt="Logo DATIC" class="responsive-image imagen">
         </div>
         <div class="menu">
-            <a href="index.html"><input type="button" class=" botonInicio" value="INICIO"></a>
-            <a href="ServletDocente"><button class="boton">DOCENTES</button></a>
-            <a href="preguntas.html"><input type="button" class="boton" value="PREGUNTAS"></a>
-            <a href="AlumnoServlet"><button class="boton">ALUMNOS</button></a>
-            <a href="ServletDocente"><button class="boton">CARRERAS</button></a>
+            <a href="inicio.jsp"><input type="button" class=" botonInicio" value="INICIO"></a>
+            <a href="ServletDocente">
+                <button class="boton">DOCENTES</button>
+            </a>
+            <a href="ServletPregunta1">
+                <button class="boton">PREGUNTAS</button>
+            </a>
+            <a href="AlumnoServlet">
+                <button class="boton">ALUMNOS</button>
+            </a>
+            <a href="ServletDocente">
+                <button class="boton">CARRERAS</button>
+            </a>
             <form action="" id="dc">
                 <input type="hidden" name="accion">
             </form>
@@ -63,11 +71,14 @@
         <div class="col-md-2" id="cajas">
             <div class="evaluacion">
                 <h6>Crear evaluaci&oacute;n</h6>
-                <button id="crearEvaluacion">
-                    <a href="crearEvaluacion.html">
+                <form action="ServletEvaluacion" method="post">
+                    <input type="hidden" name="accion" value="periodos">
+                    <button id="crearEvaluacion">
+
                         <img src="src/mas.png" alt="imagen" id="btnAgregar">
-                    </a>
-                </button>
+
+                    </button>
+                </form>
             </div>
             <div class="evaluacion">
                 <h6>Seguimiento</h6>

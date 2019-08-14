@@ -68,7 +68,7 @@
         </div>
         <div class="menu">
 
-            <a href="index.html"><input type="button" class=" botonInicio" value="INICIO"></a>
+            <a href="inicio.jsp"><input type="button" class=" botonInicio" value="INICIO"></a>
             <a href="ServletDocente">
                 <button class="boton">DOCENTES</button>
             </a>
